@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html <% if (config.language) { %>lang="<%= config.language %>"<% } %>>
-<head>
+  <head>
   <meta charset="UTF-8">
   <%
   var title = page.title;
@@ -52,4 +52,5 @@
     <link rel="apple-touch-icon-precomposed" href="<%- config.root %><%- theme.apple_icon %>">
     <% } %>
     <%- css('css/style') %>
+    <%- partial('baidu_tongji') %>
 </head>
